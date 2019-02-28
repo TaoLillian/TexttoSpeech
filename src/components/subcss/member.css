@@ -1,0 +1,21 @@
+.memContainers{
+    margin-top: 30px;
+}
+.men-pic{
+    position: relative;
+    top:10px;
+}
+.men-pic img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.men-account h3{
+    font-style: italic;
+    text-shadow: 2px 2px 2px 2px #ffffff;
+}
+.men-account{
+    position: relative;
+    left: 160px;
+    top:-90px;
+}

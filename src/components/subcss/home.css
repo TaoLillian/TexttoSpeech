@@ -1,0 +1,57 @@
+.homeContainers {
+    padding-top: -8px;
+    /*text-align: center;*/
+    margin-top: 71px;
+}
+.pad{
+    padding-top: 11px;
+}
+.home-left {
+    width:450px ;
+    height: 400px;
+    position: relative;
+    left: 50px;
+}
+.home-right-top {
+    width: 200px;
+    height: 250px;
+    background-color: #222222;
+    position: relative;
+    top: -400px;
+    left: 550px;
+}
+.home-right-bottom {
+    width: 200px;
+    height: 150px;
+    background-color: #222222;
+    position: relative;
+    top: -350px;
+    left: 550px;
+}
+.mui-ellipsis {
+    line-height: 5px;
+    word-break: break-all;
+}
+.mui-table-view {
+    background-color:transparent;
+}
+.mui-table-view-cell mui-media {
+    background-color:transparent;
+}
+.home-pic img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+.home-pic {
+    overflow: hidden;
+}
+.mui-icon-extra-heart{
+    float: right;
+    color: pink;
+    /*background-color: pink;*/
+}
+.red{
+    color:red;
+}
+

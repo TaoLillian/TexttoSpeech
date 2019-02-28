@@ -1,0 +1,157 @@
+.app-all {
+    background-color: #ffffff;
+}
+.appContainers {
+    width: 100%;
+    height: 50px;
+    background-color: #ffffff;
+    align-content: center;
+    z-index: auto;
+    position: fixed;
+    overflow: hidden;
+    border-bottom: 1px #8f8f94;
+}
+.canvas {
+
+    width: 800px;
+    height: 600px;
+    position: relative;
+    top: 0px;
+    left: 263px;
+    /*margin-top: -8px;*/
+    padding-top: 20px;
+    /*overflow: hidden;*/
+    /*margin-top: 71px;*/
+
+
+}
+.app-search {
+    width: 200px;
+    height: 40px;
+    /*!*background-color: #4cd964;*!*/
+    position: fixed;
+    left: 20%;
+    top: 13px;
+    background-color: #ffffff;
+    border: 1px solid #eeeeee;
+    border-radius: 6px;
+    font-size: 14px;
+    text-align: center;
+}
+.app-search label {
+    z-index: 2;
+    margin-left: -8%;
+    color: #B2B2B2;
+    font-weight: normal;
+    position: fixed;
+    left: 31%;
+    top: 23px;
+}
+.app-search input {
+    text-indent: 10px;
+    height: 1.8rem;
+    line-height: 1.9rem;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.app-search i{
+    position: absolute;
+    top: 8px;
+    left: 20%;
+    margin-left: -15%;
+    color: #B2B2B2;
+}
+.app-login ,.app-home,.app-me,.app-play {
+    /*background-color: orange;*/
+    width:10% ;
+    font-size: 22px;
+    font-weight: 100;
+    color: #ffffff;
+    /*overflow: hidden;*/
+    text-align: center;
+}
+.white{
+    /*text-shadow: 2px 2px 2px saddlebrown;*/
+    color: #000000;
+}
+.app-home {
+
+    position: fixed;
+    right: 10%;
+    bottom: 680px;
+    text-align: center;
+}
+.app-login{
+    position: fixed;
+    right: 1%;
+    bottom: 680px;
+    text-align: center;
+}
+.app-play {
+    position: fixed;
+    right: 18%;
+    bottom: 680px;
+    text-align: center;
+}
+
+.app-me {
+    position: fixed;
+    right: 26%;
+    bottom: 665px;
+    text-align: center;
+}
+/*
+style="background-color:#ffffff;
+display: none;
+border:1px solid;
+ height:100px;
+ width:100px;
+ z-index:999;
+ border-radius: 10%;
+ border: 0 none"
+*/
+.divList{
+    text-align: left;
+    position: fixed;
+    right: 27%;
+    bottom: 520px;
+    background-color: #eeeeee;
+    height:150px;
+    width:130px;
+}
+.divList-font {  /*这是下拉列表的样式*/
+    color: #000000;
+    font-family: 微软雅黑;
+    font-size: 22px;
+    font-weight: 100;
+    line-height: 20px;
+}
+/*.single {  !*设置下拉列表小图标的样式*!*/
+    /*color: lightskyblue;*/
+    /*font-size: 15px;*/
+    /*font-weight: 200;*/
+/*}*/
+router-link {
+    font-family: '微软雅黑';
+    font-size: 18px;
+    text-align: center;
+}
+a:hover {
+    color: saddlebrown;
+}
+.app-logo{
+    position: absolute;
+    left:10% ;
+}
+hr {
+    filter: alpha(opacity=50,finishOpacity=0,style=3);
+    color: gray;
+}
+/*style="background-color: lightpink;width: 80px;height: 30px;border-radius: 30%"*/
+
+.login-back{ /*登录的特殊背景*/
+    background-color: lightpink;
+    width: 90px;
+    border-radius: 30%;
+}
